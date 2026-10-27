@@ -21,7 +21,7 @@ Salience scores are qualitative estimates, informed by the cited sources where t
 
 ## How to cite
 
-Kocaballi, B. (2026). *Sloplab: A specimen bench for AI-generated interface design, 2023–2027* (Version 2.0) [Interactive website]. Human-AI Futures Lab, University of Technology Sydney. https://sloplab.vercel.app
+Kocaballi, A. B. (2026). *Sloplab: A specimen bench for AI-generated interface design, 2023–2027* (Version 2.0) [Interactive website]. Human-AI Futures Lab, University of Technology Sydney. https://sloplab.vercel.app
 
 BibTeX and CFF metadata are in [`CITATION.cff`](CITATION.cff); GitHub's "Cite this repository" button reads it.
 
