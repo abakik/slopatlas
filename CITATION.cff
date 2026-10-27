@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use, adapt or refer to Sloplab, please cite it as below."
+title: "Sloplab: A specimen bench for AI-generated interface design, 2023–2027"
+type: software
+authors:
+  - family-names: Kocaballi
+    given-names: Baki
+    affiliation: "Human-AI Futures Lab, University of Technology Sydney"
+version: "2.0"
+date-released: 2026-10-27
+repository-code: "https://github.com/abakik/sloplab"
+url: "https://github.com/abakik/sloplab"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  An interactive specimen bench for the default look of AI-generated
+  interfaces from 2023 to 2026, organised by colour, typography, component,
+  composition, imagery, motion, interaction and copy, with evidence-tagged
+  traits and a driver-based forecast for 2027.
+keywords:
+  - AI slop
+  - generative AI
+  - interface design
+  - design trends
+  - human-AI interaction

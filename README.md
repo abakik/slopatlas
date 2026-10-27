@@ -18,3 +18,13 @@ Open `index.html` in a browser. It is a single static file with no build step; f
 ## Caveats
 
 Salience scores are qualitative estimates, informed by the cited sources where they exist. They are not measurements. 2023 shows how AI products presented themselves (mostly designed by people), and 2024 shows a pre-existing style (the Linear look) as generators reproduced it. 2026 covers part of a year. The 2027 model is deliberately simple so its assumptions stay visible and open to argument.
+
+## How to cite
+
+Kocaballi, B. (2026). *Sloplab: A specimen bench for AI-generated interface design, 2023–2027* (Version 2.0) [Interactive website]. Human-AI Futures Lab, University of Technology Sydney. https://github.com/abakik/sloplab
+
+BibTeX and CFF metadata are in [`CITATION.cff`](CITATION.cff); GitHub's "Cite this repository" button reads it.
+
+## Licence
+
+Text, trait catalogue and salience data: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Code: MIT. See [`LICENSE`](LICENSE). Built with assistance from Claude (Anthropic).

@@ -6,6 +6,12 @@
 <!-- artifact:start -->
 <title>Sloplab</title>
 <meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Sloplab: an interactive specimen bench for the default look of AI-generated interfaces, 2023–2026, with a forecast for 2027.">
+<meta name="author" content="Baki Kocaballi">
+<meta name="citation_title" content="Sloplab: A specimen bench for AI-generated interface design, 2023–2027">
+<meta name="citation_author" content="Kocaballi, Baki">
+<meta name="citation_publication_date" content="2026/10/27">
+<meta name="citation_publisher" content="Human-AI Futures Lab, University of Technology Sydney">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Public+Sans:ital,wght@0,400..700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400..800&family=Geist:wght@400..700&family=Geist+Mono:wght@400..600&family=Instrument+Serif:ital@0;1&family=Doto:wght@700..900&family=Caveat:wght@500..700&display=swap">
@@ -203,7 +209,13 @@ table.atlas{border-collapse:separate;border-spacing:0;min-width:1180px;width:100
 .notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px 28px;font-size:14px;color:var(--ink2)}
 .notes p{margin:0}
 .notes b{color:var(--ink)}
-footer.end{padding-block:24px 40px;font:500 12px var(--f-mono);color:var(--ink3)}
+footer.end{padding-block:24px 40px;font:500 12px var(--f-mono);color:var(--ink3);line-height:1.7}
+footer.end a{color:var(--ink2)}
+.cites{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.cite{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:14px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.cite-h{display:flex;justify-content:space-between;align-items:center;gap:10px;font:600 12px var(--f-mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink2)}
+.cite p{margin:0;font-size:14.5px;line-height:1.55;overflow-wrap:anywhere}
+.cite pre{margin:0;font:12px/1.55 var(--f-mono);overflow-x:auto;color:var(--ink)}
 #toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:9px 14px;border-radius:3px;font-size:13.5px;z-index:60;max-width:calc(100% - 32px)}
 #recipeOut{width:100%;min-height:120px;font:12px var(--f-mono);background:var(--paper);color:var(--ink);border:1px solid var(--rule);border-radius:3px;padding:8px}
 
@@ -632,6 +644,22 @@ footer.end{padding-block:24px 40px;font:500 12px var(--f-mono);color:var(--ink3)
     <ul class="srcs" id="srcs"></ul>
   </section>
 
+  <section class="sec" aria-labelledby="citeH">
+    <div class="sec-h"><h2 id="citeH">Cite</h2><p>If you use, adapt or refer to Sloplab, please cite it. The text, trait catalogue and salience data are licensed CC BY 4.0, and the code is MIT. Both allow reuse with attribution.</p></div>
+    <div class="cites">
+      <div class="cite"><div class="cite-h"><b>APA</b><button class="mini-btn" data-copy="citeApa">Copy</button></div><p id="citeApa">Kocaballi, B. (2026). <i>Sloplab: A specimen bench for AI-generated interface design, 2023–2027</i> (Version 2.0) [Interactive website]. Human-AI Futures Lab, University of Technology Sydney. <span class="cite-url">https://github.com/abakik/sloplab</span></p></div>
+      <div class="cite"><div class="cite-h"><b>BibTeX</b><button class="mini-btn" data-copy="citeBib">Copy</button></div><pre id="citeBib">@misc{kocaballi2026sloplab,
+  author       = {Kocaballi, Baki},
+  title        = {Sloplab: A specimen bench for AI-generated interface design, 2023--2027},
+  year         = {2026},
+  version      = {2.0},
+  howpublished = {Interactive website},
+  publisher    = {Human-AI Futures Lab, University of Technology Sydney},
+  url          = {<span class="cite-url">https://github.com/abakik/sloplab</span>}
+}</pre></div>
+    </div>
+  </section>
+
   <section class="sec" aria-labelledby="notesH">
     <div class="sec-h"><h2 id="notesH">Method</h2></div>
     <div class="notes">
@@ -642,7 +670,7 @@ footer.end{padding-block:24px 40px;font:500 12px var(--f-mono);color:var(--ink3)
       <p><b>What it cannot predict.</b> New model-specific artefacts. GPT-4o's yellow cast arrived without warning in 2025; the next one will too. Treat 2027 as a set of arguments, not a result.</p>
     </div>
   </section>
-  <footer class="end">Sloplab · specimen pages are fictional (“Nova” and the customer logos do not exist) · fonts from Google Fonts</footer>
+  <footer class="end">Sloplab v2.0 · © 2026 Baki Kocaballi, Human-AI Futures Lab, University of Technology Sydney · text and data <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, code MIT · <a href="https://github.com/abakik/sloplab" target="_blank" rel="noopener">source on GitHub</a> · built with assistance from Claude (Anthropic) · specimen pages are fictional (“Nova” and the customer logos do not exist), and their AI interactions are scripted</footer>
 </div>
 <div id="tip" hidden></div>
 <div id="toast" role="status" hidden></div>
@@ -1462,6 +1490,12 @@ function buildHeat(){
 }
 function renderHeat27(){SAL.forEach(([t,,f],i)=>{const v=sal27(f),r=Math.round(v),el=$('#h27-'+i);el.className=`hc fc v${r}`;el.textContent=r;el.dataset.tip=`${t} · 2027 forecast: ${v.toFixed(1)} of 3, ${SLBL[r]}`;el.setAttribute('aria-label',el.dataset.tip)})}
 
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-copy]');if(!b)return;
+  const el=document.getElementById(b.dataset.copy),txt=el.innerText;
+  const sel=()=>{const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);toast('Copy was blocked. The citation is selected; press Ctrl+C or ⌘C.')};
+  try{navigator.clipboard.writeText(txt).then(()=>toast('Citation copied'),sel)}catch(err){sel()}
+});
 function buildSources(){
   const used={};
   DIMS.forEach(d=>Object.keys(STY[d.id]).forEach(k=>STY[d.id][k].src.forEach(x=>(used[x]=used[x]||[]).push(code(d.id,k)))));
