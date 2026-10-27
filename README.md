@@ -12,8 +12,9 @@ Open `index.html` in a browser. It is a single static file with no build step; f
 - **2027 forecast.** Five drivers (absorption of 2025–26 taste, agentic UI share, authenticity signalling, maximalist rebound, provenance labelling). Four scenarios compete per dimension, and the winner is the one with the highest driver × affinity score. The readout shows the weights, the signals behind them, and what would show the forecast is wrong.
 - **Atlas.** A dimension × year matrix with a mini specimen, tells and a "load into bench" button for every trait.
 - **Tell salience.** A 0–3 heatmap of how visible each tell was per year. The 2027 column is computed from the drivers.
+- **Evidence.** Every trait is tagged documented, reported, estimate or forecast, with links to the sources on the page. Hover or focus a recipe button to see a trait's tells and evidence.
 - **Tells on the bench** lists every trait in the current specimen with its catalogue code (`C·24` = colour, 2024; `X·27C` = interaction, 2027 scenario C). **Copy recipe** exports the current configuration as JSON.
 
 ## Caveats
 
-The trait descriptions and salience scores are qualitative estimates drawn from design-community discussion, tool defaults and generated samples. They are not measurements. 2026 covers part of a year. The 2027 model is deliberately simple so its assumptions stay visible and open to argument.
+Salience scores are qualitative estimates, informed by the cited sources where they exist. They are not measurements. 2023 shows how AI products presented themselves (mostly designed by people), and 2024 shows a pre-existing style (the Linear look) as generators reproduced it. 2026 covers part of a year. The 2027 model is deliberately simple so its assumptions stay visible and open to argument.
