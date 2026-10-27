@@ -2,7 +2,7 @@
 
 An interactive specimen bench for the default look of AI-generated interfaces ("slop"), 2023–2026, with a toy forecast for 2027.
 
-Open `index.html` in a browser. It is a single static file with no build step; fonts load from Google Fonts.
+Live at **https://sloplab.vercel.app**. To run locally, open `index.html` in a browser. It is a single static file with no build step; fonts load from Google Fonts.
 
 ## What it does
 
@@ -21,7 +21,7 @@ Salience scores are qualitative estimates, informed by the cited sources where t
 
 ## How to cite
 
-Kocaballi, B. (2026). *Sloplab: A specimen bench for AI-generated interface design, 2023–2027* (Version 2.0) [Interactive website]. Human-AI Futures Lab, University of Technology Sydney. https://github.com/abakik/sloplab
+Kocaballi, B. (2026). *Sloplab: A specimen bench for AI-generated interface design, 2023–2027* (Version 2.0) [Interactive website]. Human-AI Futures Lab, University of Technology Sydney. https://sloplab.vercel.app
 
 BibTeX and CFF metadata are in [`CITATION.cff`](CITATION.cff); GitHub's "Cite this repository" button reads it.
 
