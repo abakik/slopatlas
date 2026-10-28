@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use, adapt or refer to Sloplab, please cite it as below."
-title: "Sloplab: A specimen bench for AI-generated interface design, 2023–2027"
+message: "If you use, adapt or refer to Slop Atlas, please cite it as below."
+title: "Slop Atlas: The default look of AI-generated interfaces, 2023–2027"
 type: software
 authors:
   - family-names: Kocaballi
@@ -8,8 +8,8 @@ authors:
     affiliation: "Human-AI Futures Lab, University of Technology Sydney"
 version: "2.0"
 date-released: 2026-10-27
-repository-code: "https://github.com/abakik/sloplab"
-url: "https://sloplab.vercel.app"
+repository-code: "https://github.com/abakik/slop-atlas"
+url: "https://slop-atlas.vercel.app"
 license:
   - MIT
   - CC-BY-4.0

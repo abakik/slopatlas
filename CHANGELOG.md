@@ -1,5 +1,9 @@
 # Changelog
 
+## Rename
+
+Renamed from Sloplab to **Slop Atlas** (subtitle: *The default look of AI-generated interfaces, 2023–2027*). The in-page Atlas section is now **Atlas Grid**. New repository `abakik/slop-atlas`; the old `abakik/sloplab` repository and Vercel project were deleted.
+
 ## v2.0 — evidence pass
 
 - Re-checked every year against published sources (listed on the page under **Sources**). Each trait now carries an evidence tag: documented, reported, estimate or forecast.
