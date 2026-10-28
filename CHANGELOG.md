@@ -2,7 +2,7 @@
 
 ## Rename
 
-Renamed from Sloplab to **Slop Atlas** (subtitle: *The default look of AI-generated interfaces, 2023–2027*). The in-page Atlas section is now **Atlas Grid**. New repository `abakik/slop-atlas`; the old `abakik/sloplab` repository and Vercel project were deleted.
+Renamed from Sloplab to **Slop Atlas** (subtitle: *The default look of AI-generated interfaces, 2023–2027*). The in-page Atlas section is now **Atlas Grid**. New repository `abakik/slopatlas`; the old `abakik/sloplab` repository and Vercel project were deleted.
 
 ## v2.0 — evidence pass
 

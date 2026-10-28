@@ -8,8 +8,8 @@ authors:
     affiliation: "Human-AI Futures Lab, University of Technology Sydney"
 version: "2.0"
 date-released: 2026-10-27
-repository-code: "https://github.com/abakik/slop-atlas"
-url: "https://slop-atlas.vercel.app"
+repository-code: "https://github.com/abakik/slopatlas"
+url: "https://slopatlas.vercel.app"
 license:
   - MIT
   - CC-BY-4.0
